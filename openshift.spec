@@ -55,7 +55,7 @@ ExclusiveArch:  x86_64 aarch64 ppc64le s390x
 Source0:        https://%{import_path}/archive/%{commit}/%{name}-%{version}.tar.gz
 BuildRequires:  systemd
 BuildRequires:  bsdtar
-BuildRequires:  golang >= %{golang_version}
+#BuildRequires:  golang >= %{golang_version}
 BuildRequires:  krb5-devel
 BuildRequires:  rsync
 
